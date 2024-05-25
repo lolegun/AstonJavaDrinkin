@@ -1,0 +1,47 @@
+public class Main {
+    public static void main(String[] args) {
+        // Задание 1
+        int a = 5;
+        int b = 3;
+
+        // Сравнение чисел и вывод результата
+        if (a > b) {
+            System.out.println("a > b");
+        } else if (a < b) {
+            System.out.println("a < b");
+        } else {
+            System.out.println("a = b");
+        }
+
+        // Выполнение операций с числами и вывод результатов
+        System.out.println("Сумма: " + (a + b));
+        System.out.println("Разность: " + (a - b));
+        System.out.println("Произведение: " + (a * b));
+        System.out.println("Деление: " + (a / b));
+        
+        System.out.println();
+
+        // Задание 2
+        String str1 = "Hello";
+        String str2 = "World";
+
+        // Сравнение строк и вывод результата
+        if (str1.equals(str2)) {
+            System.out.println("Строки идентичны");
+        } else {
+            System.out.println("Строки неидентичны");
+        }
+
+        System.out.println();
+
+        // Задание 3
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        System.out.println("Чётные числа:");
+        for (int number : numbers) {
+            if (number % 2 == 0) {
+                System.out.println(number);
+            }
+        }
+    }
+}
